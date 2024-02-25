@@ -6,8 +6,6 @@ def get_valid_score():
         print("Invalid score. The score must be between 0 and 100.")
         score = float(input("Enter a score between 0 and 100: "))
     return score
-
-
 def evaluate_score(score):
     """Evaluate the score and return the result."""
     if score < 0 or score > 100:
@@ -18,17 +16,13 @@ def evaluate_score(score):
         return "Passable"
     else:
         return "Bad"
-
-
 def print_result(score):
-    """Print the result based on the score."""
+    """print the result based on the score."""
     result = evaluate_score(score)
     print(f"Result: {result}")
-
 def show_stars(score):
-    """Print stars equal to the score."""
+    """print stars equal to the score."""
     print("*" * int(score))
-
 
 def main():
     score = -1
@@ -58,5 +52,4 @@ def main():
         choice = input(">>> ").upper()
 
     print("Farewell!")
-
 main()
