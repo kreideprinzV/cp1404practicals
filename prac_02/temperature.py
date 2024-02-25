@@ -1,8 +1,8 @@
 def celsius_to_fahrenheit(celsius):
     """
     Convert temperature from Celsius to Fahrenheit.
-    :param celsius: Temperature in Celsius
-    :return: Equivalent temperature in Fahrenheit
+    celsius: Temperature in Celsius
+    Equivalent temperature in Fahrenheit
     """
     fahrenheit = (celsius * 9/5) + 32
     return fahrenheit
@@ -10,8 +10,8 @@ def celsius_to_fahrenheit(celsius):
 def fahrenheit_to_celsius(fahrenheit):
     """
     Convert temperature from Fahrenheit to Celsius.
-    :param fahrenheit: Temperature in Fahrenheit
-    :return: Equivalent temperature in Celsius
+    fahrenheit: Temperature in Fahrenheit
+    Equivalent temperature in Celsius
     """
     celsius = (fahrenheit - 32) * 5/9
     return celsius
